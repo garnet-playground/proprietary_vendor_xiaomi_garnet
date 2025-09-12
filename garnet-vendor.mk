@@ -913,7 +913,6 @@ PRODUCT_PACKAGES += \
     libOpenCL \
     libadreno_app_profiles \
     libadreno_utils \
-    libdapparamstorage \
     libgpudataproducer \
     libgsl \
     libkcl \
@@ -922,15 +921,8 @@ PRODUCT_PACKAGES += \
     libllvm-qcom \
     libllvm-qgl \
     libvmmem \
-    vendor.dolby.hardware.dms@2.0 \
     vendor.qti.qspmhal@1.0-impl \
     vendor.qti.qspmhal@1.0 \
-    libdeccfg \
-    libstagefright_soft_ac4dec \
-    libstagefright_soft_ddpdec \
-    libswdap \
-    libswgamedap \
-    libswvqe \
     android.hardware.secure_element@1.0-impl \
     btaudio_offload_if \
     com.qti.actuator.garnet_aac_ov64b40_dw9800v_wide_i_actuator \
@@ -1311,7 +1303,9 @@ PRODUCT_PACKAGES += \
     libcpion \
     libcv_common \
     libcvp2_1 \
+    libdapparamstorage \
     libdataitems \
+    libdeccfg \
     libdeflicker \
     libdiag \
     libdigital-dimming \
@@ -1572,6 +1566,8 @@ PRODUCT_PACKAGES += \
     libssc_default_listener \
     libssccalapi@2.0 \
     libssd \
+    libstagefright_soft_ac4dec \
+    libstagefright_soft_ddpdec \
     libsubsystem_control \
     libsupermoon \
     libswregistrationalgo \
@@ -1631,6 +1627,9 @@ PRODUCT_PACKAGES += \
     sensors.ultrasoundproximity \
     libasphere \
     libmisoundfx \
+    libswdap \
+    libswgamedap \
+    libswvqe \
     vendor.display.color@1.0 \
     vendor.display.color@1.1 \
     vendor.display.color@1.2 \
@@ -1641,6 +1640,7 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.7 \
     vendor.display.postproc@1.0 \
     vendor.dolby.hardware.dms@2.0-impl \
+    vendor.dolby.hardware.dms@2.0 \
     vendor.libdpmctmgr \
     vendor.libdpmfdmgr \
     vendor.libdpmframework \
